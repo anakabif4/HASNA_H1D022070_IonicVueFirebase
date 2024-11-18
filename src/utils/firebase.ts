@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCZ_0CmKevPAE34H8wdZEMmJjBpBFlo_Mk",
+    apiKey: "AIzaSyCZ_0CmKevPAE34H8wdZEMmJjBpBFlo_Mkj",
   authDomain: "cat-worlddomination.firebaseapp.com",
   projectId: "cat-worlddomination",
   storageBucket: "cat-worlddomination.firebasestorage.app",
