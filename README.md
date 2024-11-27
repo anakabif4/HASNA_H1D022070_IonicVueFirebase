@@ -39,4 +39,16 @@
 - **Email:** diambil dari `email` akun Google.
 - **Foto Profil:** diambil dari `photoURL` akun Google.
 
+## Fitur CRUD
+
+###**1. Create Todo**
+Pada fitur ini, user bisa menambahkan todo baru dengan memasukkan judul dan deskripsinya. Status default dari todo ini adalah **not completed**.
+###**2. Read Todo**
+Fitur ini menampilkan daftar todo berdasarkan waktu update terbaru dalam dua kategori, yaitu aktif dan selesai.
+###**3. Update Todo**
+User bisa memperbarui judul dan deskripsi todo yang sudah ada melalui tombol berikon **Edit** pada kotak todo. Untuk memunculkan tombolnya, geser kotak ke kiri.
+###**4. Delete Todo**
+User bisa menghapus todo yang tidak diperlukan lagi dengan menekan tombol berikon tempah sampah. Caranya adalah dengan menggeser kotak ke kanan.
+###**4. Completed Todo**
+Jika todo sudah dikerjakan, user bisa menandainya sebagai completed. Caranya adalah dengan menggeser kotak ke kiri dan menekan tombol berwarna kuning.
 ## Hasna Mumtazah Khairunnisa | H1D022070 | Shift E
