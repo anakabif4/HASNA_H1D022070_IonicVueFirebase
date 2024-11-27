@@ -1,5 +1,7 @@
 {
   "name": "cat-worlddomination",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "vue-vite"
 }
