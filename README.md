@@ -41,9 +41,10 @@
 
 ## Fitur CRUD
 
-1. Create Todo
-![Create Todo](add.png)
+1. Add (Create) Todo
+![Add Todo](add.png)
 ![Isi Create Todo](isiadd.png)
+![Notifikasi Add Todo](added.png)
 Pada fitur ini, user bisa menambahkan todo baru dengan memasukkan judul dan deskripsinya. Status default dari todo ini adalah `not completed`.
 3. Read Todo
 ![Profile Page](profilepage.png)
