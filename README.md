@@ -54,7 +54,8 @@ Fitur ini menampilkan daftar todo berdasarkan waktu update terbaru dalam dua kat
 ![Update Complete](updatecomplete.png)
 User bisa memperbarui judul dan deskripsi todo yang sudah ada melalui tombol berikon `Edit` pada kotak todo. Untuk memunculkan tombolnya, geser kotak ke kiri.
 7. Delete Todo
-![Delete](deleted.png)
+![Tombol Delete](delete.png)
+![Notifikasi Delete](deleted.png)
 User bisa menghapus todo yang tidak diperlukan lagi dengan menekan tombol berikon tempah sampah. Caranya adalah dengan menggeser kotak ke kanan.
 9. Completed Todo
 ![Notifikasi Complete Todo](completed.png)
