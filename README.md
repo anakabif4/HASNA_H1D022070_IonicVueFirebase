@@ -57,6 +57,6 @@ User bisa memperbarui judul dan deskripsi todo yang sudah ada melalui tombol ber
 ![Delete](deleted.png)
 User bisa menghapus todo yang tidak diperlukan lagi dengan menekan tombol berikon tempah sampah. Caranya adalah dengan menggeser kotak ke kanan.
 9. Completed Todo
-![Complete Todo](complete.png)
+![Notifikasi Complete Todo](completed.png)
 Jika todo sudah dikerjakan, user bisa menandainya sebagai completed. Caranya adalah dengan menggeser kotak ke kiri dan menekan tombol berwarna kuning.
 ## Hasna Mumtazah Khairunnisa | H1D022070 | Shift E
