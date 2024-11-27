@@ -50,7 +50,7 @@ Pada fitur ini, user bisa menambahkan todo baru dengan memasukkan judul dan desk
 ![Profile Page](profilepage.png)
 Fitur ini menampilkan daftar todo berdasarkan waktu update terbaru dalam dua kategori, yaitu aktif dan selesai.
 5. Update Todo
-![Profile Page](profilepage.png)
+![Update Todo](update.png)
 User bisa memperbarui judul dan deskripsi todo yang sudah ada melalui tombol berikon `Edit` pada kotak todo. Untuk memunculkan tombolnya, geser kotak ke kiri.
 7. Delete Todo
 ![Profile Page](profilepage.png)
