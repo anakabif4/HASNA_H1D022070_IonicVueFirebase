@@ -6,11 +6,11 @@
    - Aplikasi menggunakan <i>plugin</i> Google Auth untuk membuka dialog login Google.
    - <b>idToken</b> yang diterima digunakan untuk membuat <i>credential</i> login Firebase.
 3. Mengambil Data Pengguna
-   - Setelah login, Firebase memantau perubahan data pengguna seperti autentikasi dengan **onAuthStateChanged**.
-   - Jika login berhasil, aplikasi menyimpan data pengguna seperti **displayName**, **email**, dan **photoURL**.
+   - Setelah login, Firebase memantau perubahan data pengguna seperti autentikasi dengan `onAuthStateChanged`.
+   - Jika login berhasil, aplikasi menyimpan data pengguna seperti `displayName`, `email`, dan `photoURL`.
 4. Menampilkan Data Profil
    - Data pengguna yang telah disimpan dalam <i>state</i> aplikasi ditampilkan di halaman profil.
-   - Jika **photoURL** tidak tersedia, aplikasi menggunakan avatar default.
+   - Jika `photoURL` tidak tersedia, aplikasi menggunakan avatar default.
 
 ## Alur Kerja
 1. Pengguna menekan tombol "SIGN IN WITH GOOGLE".
@@ -35,20 +35,26 @@
 5. Profile Page
   ![Profile Page](profilepage.png)
 - Halaman profil yang menampilkan:
-- **Nama:** diambil dari `displayName` akun Google.
-- **Email:** diambil dari `email` akun Google.
-- **Foto Profil:** diambil dari `photoURL` akun Google.
+- `Nama:` diambil dari `displayName` akun Google.
+- `Email`: diambil dari `email` akun Google.
+- `Foto Profil`: diambil dari `photoURL` akun Google.
 
 ## Fitur CRUD
 
-###**1. Create Todo**
-Pada fitur ini, user bisa menambahkan todo baru dengan memasukkan judul dan deskripsinya. Status default dari todo ini adalah **not completed**.
-###**2. Read Todo**
+1. Create Todo
+![Create Todo](create.png)
+![Isi Create Todo](isicreate.png)
+Pada fitur ini, user bisa menambahkan todo baru dengan memasukkan judul dan deskripsinya. Status default dari todo ini adalah `not completed`.
+3. Read Todo
+![Profile Page](profilepage.png)
 Fitur ini menampilkan daftar todo berdasarkan waktu update terbaru dalam dua kategori, yaitu aktif dan selesai.
-###**3. Update Todo**
-User bisa memperbarui judul dan deskripsi todo yang sudah ada melalui tombol berikon **Edit** pada kotak todo. Untuk memunculkan tombolnya, geser kotak ke kiri.
-###**4. Delete Todo**
+5. Update Todo
+![Profile Page](profilepage.png)
+User bisa memperbarui judul dan deskripsi todo yang sudah ada melalui tombol berikon `Edit` pada kotak todo. Untuk memunculkan tombolnya, geser kotak ke kiri.
+7. Delete Todo
+![Profile Page](profilepage.png)
 User bisa menghapus todo yang tidak diperlukan lagi dengan menekan tombol berikon tempah sampah. Caranya adalah dengan menggeser kotak ke kanan.
-###**4. Completed Todo**
+9. Completed Todo
+![Profile Page](profilepage.png)
 Jika todo sudah dikerjakan, user bisa menandainya sebagai completed. Caranya adalah dengan menggeser kotak ke kiri dan menekan tombol berwarna kuning.
 ## Hasna Mumtazah Khairunnisa | H1D022070 | Shift E
